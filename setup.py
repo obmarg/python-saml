@@ -45,7 +45,6 @@ setup(
     version='0.0.1',
     description="Python client library for SAML Version 2.0",
     packages = find_packages(),
-    namespace_packages = ['onelogin'],
     install_requires=install_requires,
     tests_require=tests_require,
     extras_require={'tests': tests_require},
